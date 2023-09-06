@@ -1,0 +1,54 @@
+<!-- Сообщаем браузеру как стоит обрабатывать эту страницу -->
+<!DOCTYPE html>
+<!-- Оболочка документа, указываем язык содержимого -->
+<html lang="ru">
+<!-- Заголовок страницы, контейнер для других важных данных (не отображается) -->
+
+<head>
+	<!-- Заголовок страницы в браузере -->
+	<title>CSS. Часть №5 (Свойство background)</title>
+	<!-- Подключаем CSS -->
+	<link rel="stylesheet" href="css/style.css" />
+	<!-- Кодировка страницы -->
+	<meta http-equiv="Content-type" content="text/html;charset=UTF-8" />
+</head>
+
+<body>
+
+	<div class="content"><!-- общая контентная часть со всеми блоками внутри -->
+		<div class="content-top"><!-- верхняя часть с двумя текстовыми блоками -->
+			<div class="content-top_category">Travel</div>
+			<h1 class="content-top__title">Donec sed odio dui. Cras mattis consectetur purus sit amet fermentum.
+			</h1>
+		</div>
+		<div class="content__image"><!-- див в диве для надёжности(в конце работы можно лишние удалить) -->
+			<img src="../img/man2.png" alt="">
+		</div>
+		<div class="content-bottom">
+			<div class="content-bottom__text">
+				<p> Hello Donec aredsed odio dui. Hello Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Morbi
+					leo
+					risus,
+					porta ac consectetur ac, vestibulum at eros. How are you Donec ullamcorper nulla non metus auctor
+					fringilla.</p>
+				<p>Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Aenean eu leo quam.
+					Pellentesque ornare sem lacinia quam venenatis vestibulum.</p>
+			</div>
+			<div class="content-bottom-info">
+				<ul class="content-bottom-info-list">
+					<li>Put on this page information about your product</li>
+					<li>A detailed description of your product</li>
+					<li>Tell us about the advantages and merits</li>
+					<li><span>Associate the page with the payment system</span></li>
+					<!--сюда мы добавили СПАН для того, чтоб прозрачность не повлияла на иконку-->
+				</ul>
+				<a target="_blank" href="https://www.youtube.com/watch?v=RAjPF9u1Vso"
+					class="content-bottom-info__link"><!-- не button потому что это не ФОРМА а просто стилизирована как кнопка-->
+					<span>Хочю Посетить</span><!-- span нужен чтоб стилизовать нашу ссылку (например вставить иконку) -->
+				</a>
+			</div>
+		</div>
+	</div>
+</body>
+
+</html>
